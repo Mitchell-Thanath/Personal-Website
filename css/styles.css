@@ -11643,6 +11643,15 @@ html {
 .profile .dots-4 svg {
   fill: #1e30f3;
 }
+.profile .dots-5 {
+  position: absolute;
+  width: 3vw;
+  right: 1.5vw;
+  top: 4vw;
+}
+.profile .dots-5 svg {
+  fill: #1e30f3;
+}
 
 @media (min-width: 576px) {
   .profile {
@@ -11667,6 +11676,10 @@ html {
   .profile .dots-4 {
     width: 3vw;
     left: -4vw;
+  }
+  .profile .dots-5 {
+    width: 3vw;
+    left: 1.5vw;
   }
 }
 @media (min-width: 768px) {
@@ -11693,6 +11706,10 @@ html {
     width: 3vw;
     left: -4vw;
   }
+  .profile .dots-5 {
+    width: 3vw;
+    left: 1.5vw;
+  }
 }
 @media (min-width: 992px) {
   .profile {
@@ -11718,6 +11735,10 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+  .profile .dots-5 {
+    width: 1.5vw;
+    left: 0.75vw;
+  }
 }
 @media (min-width: 1200px) {
   .profile {
@@ -11742,6 +11763,10 @@ html {
   .profile .dots-4 {
     width: 1.5vw;
     left: -2vw;
+  }
+  .profile .dots-5 {
+    width: 1.5vw;
+    left: 0.75vw;
   }
 }
 
@@ -11807,7 +11832,7 @@ html {
 }
 
 /* The dots/bullets/indicators */
-.dot, .dot1, .dot2, .dot3, .dot4{
+.dot, .dot1, .dot2, .dot3, .dot4 .dot5{
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -11818,7 +11843,7 @@ html {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover, .dot1:hover, .dot2:hover, .dot3:hover, .dot4:hover{
+.active, .dot:hover, .dot1:hover, .dot2:hover, .dot3:hover, .dot4:hover, .dot5:hover{
   background-color: #717171;
 }
 
